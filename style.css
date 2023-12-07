@@ -1,0 +1,148 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: #ffffff;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url('https://m.media-amazon.com/images/M/MV5BMTQ0ODkzMDQ5N15BMl5BanBnXkFtZTcwOTI3NTMyNA@@._V1_FMjpg_UX1023_.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.movie-background .content{
+  width: 500px;
+  color: white;
+  font-family: 'Assistant', sans-serif;;
+  background-color: rgba(0, 0, 0,0.5 );
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:grey;
+  padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  right: 100px;
+  display: flex;
+  
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #ffffff;
+}
+.red-gradient{
+  width: 100%;
+  background: rgb(223,13,13);
+background: linear-gradient(90deg, rgba(223,13,13,1) 16%, rgba(255,255,255,1) 44%);
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}
+/* Main character */
+.main-character {
+  display: flex;
+  width: 800px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  
+}
+.main-character .content{
+  margin-left: 40px;
+}
+ h2{
+  font-family: 'Bebas Neue', sans-serif;
+font-weight: 400;
+}
+
+/* Character */
+.character {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 800px;
+  margin-bottom: 100px;
+}
+.character .content{
+  margin-right: 40px;
+}
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 40px;
+  margin-right: 20px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: white;
+  font-size: 28px;
+  font-family:'Bebas Neue', sans-serif;;
+}
+
+
+/* Typography */
+h1 {
+  color: red;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.year {
+  color: white;
+}
+
+
+.picture-collage {
+  display: flex;
+  margin-bottom: 100px;
+}
